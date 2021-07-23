@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+html {
+    box-sizing: border-box;
+    max-width: 1500px;
+}
+body{
+    background-image: linear-gradient(to right, white,lightblue);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.first_header{
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    margin: 0.5rem;
+    padding: 0.3rem;
+    position: relative;
+    max-height: 7.5rem;
+}
+
+.first_header img{
+    border-radius: 50%;
+}
+
+.first_header h3{
+    font-family:Raleway;
+    position: relative;
+    top: -5rem;
+    left: 6.87rem;
+    letter-spacing: 1px;
+}
+
+.first_header a {
+    font-family: Raleway;
+    letter-spacing: 1px;
+    padding: 20px;
+    display: inline-flex;
+    position: relative;
+    left: 53.75rem;
+    top: -8.5rem;
+
+}
+
+.first_header a:hover {
+    cursor: pointer;
+}
+
+.zmdi {
+    position: relative;
+    left: 56.25rem;
+    top: -8.43rem;
+}
+
+.zmdi:hover{
+    cursor: pointer;
+    transform: scale(2,2);
+}
+
+@media only screen and (max-width:900px) and (max-width: 250px){
+    .body{
+         background-repeat:no-repeat;
+         background-attachment: fixed;
+    
+    }
+
+    .first_header a{
+        visibility: hidden;
+    }
+
+    .zmdi {
+        
+    }
+}
+
